@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50px;
+  padding: 30px;
+}
+
+header .logo_restauran{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.menu_button_style{
+  font-size: 30px;
+  font-weight:900;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+nav ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+
+
+/* Akhir Navbar */
+
+
+/* Hero */
+
+.hero{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+  background: url('../public/images/heros/hero-image_2.jpg');
+  opacity: 0.8;
+}
+
+.hero__inline{
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.hero_title{
+  color: #FFF2F2;
+}
+
+.hero__tagline{
+  color: #FFF2F2;
+  font-size: 16px;
+}
+/* akhir Hero */
+
+
+
+/* resto content */
+
+
+.content_resto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 200px;
+}
+
+
+.resto_explor{
+  max-width: 800px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.resto_explor .title_explor{
+  margin: 0 auto;
+  display: block;
+}
+
+
+.list_resto{
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 400px;
+}
+
+.list_item_resto{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 15px;
+}
+
+.restaurant figure img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.restaurant{
+  max-width: 300px;
+  min-height: 56px;
+  text-align: justify;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.city{
+  max-width: 100%;
+  background-color: aliceblue;
+  border: 1px solid #A7FFE4;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* .city h4{
+  display: block;
+  margin: 0 auto;
+} */
+
+
+footer{
+  position: relative;
+  top: 100px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  background: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
